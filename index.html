@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment form</title>
+    </head>
+    <body bgcolor="lightblue">
+        <form>
+            <h1>Payment form <action=""></form></h1>
+            <p>Required field are followed by*</p>
+            <h2>Contact information</h2>
+            <p>Name:*<input type="text" name="name" required=""></p>
+            <fieldset>
+                <legend>Gender*</legend>
+                <p>
+                    <select name="Gender" id="Gender" required="">
+                  <option value="">male</option>
+                <option value="">female</option>
+                </p></select>
+            </fieldset>
+            <p>Address:<textarea name="Address" id="address"rows="6" column="80"></textarea></p>
+            <p>Email:*<input type ="email" name="email" id="email" value="" required=""/></p>
+            <p>Pincode:*<input type="number" name="Pincode" id="pincode" value=""required=""/></p>
+            <hr>
+            <h2>Payment information</h2>
+            <p>card Type:* 
+                <select name="card-type" id="card type" required="">
+                    <option value="">select a card type</option>
+                   <option value="Visa">Visa</option>
+                   <option value="SBI">SBI</option>
+                   <option value="HDFC">HDFC</option>   
+                </select>
+            </p>
+            <p>
+                Card Number *<input type="number" name="card number" id="card number" required="">
+            </p>
+            <p>
+                Expiration date:*<input type="date"name="exp-date" id="exp-date"required="">
+            </p>
+            <p>
+                CVV* <input type="password"name="CVV" id="CVV"required="">
+            </p>
+            <input type="submit" name="" id="" value="Pay Now"/>
+        </form>
+
+    </body>
+</html>
